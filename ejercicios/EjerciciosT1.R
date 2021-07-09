@@ -1,4 +1,6 @@
-opBasic = function(a,b){
+opBasic = function(a,b)
+  {
+  
   print("Suma")
   print(a+b)
   print("Resta")
@@ -12,4 +14,5 @@ opBasic = function(a,b){
   print("Cociente de la división entera")
   print(paste(sprintf("%i : %i = ",b,a),b%/%a))
   print(paste("con resto ",b%%a))
+  
 }
